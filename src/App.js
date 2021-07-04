@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import Pdf from './components/Pdf';
+import "./App.css";
+import Pdf from "./components/Pdf";
+import Htmlpdf from "./components/Htmlpdf";
 
 function App() {
   return (
-    <Pdf/>
+    <>
+      <p><strong>Hi!</strong>Szymon</p>
+      <Pdf />
+      <Htmlpdf />
+    </>
   );
 }
 
