@@ -2,6 +2,7 @@ import "./App.css";
 import Pdf from "./components/Pdf";
 import Htmlpdf from "./components/Htmlpdf";
 import Cellpdf from "./components/Cellpdf";
+import MultiPagepdf from "./components/MultiPagepdf";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Pdf />
       <Htmlpdf />
       <Cellpdf/>
+      <MultiPagepdf/>
     </>
   );
 }
