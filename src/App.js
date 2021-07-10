@@ -3,6 +3,7 @@ import Pdf from "./components/Pdf";
 import Htmlpdf from "./components/Htmlpdf";
 import Cellpdf from "./components/Cellpdf";
 import MultiPagepdf from "./components/MultiPagepdf";
+import FinallPdf from "./components/FinallPdf";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Htmlpdf />
       <Cellpdf/>
       <MultiPagepdf/>
+      <FinallPdf/>
     </>
   );
 }
