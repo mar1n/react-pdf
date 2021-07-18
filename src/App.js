@@ -9,11 +9,14 @@ function App() {
   return (
     <>
       <p><strong>Hi!</strong>Szymon</p>
-      <Pdf />
+      {/* <Pdf />
       <Htmlpdf />
       <Cellpdf/>
       <MultiPagepdf/>
-      <FinallPdf/>
+      <FinallPdf/> */}
+      <FinallPdf />
+      {/* <Htmlpdf />
+      <Cellpdf /> */}
     </>
   );
 }
